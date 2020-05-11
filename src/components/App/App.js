@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import Noisemaker from '../Noisemaker/Noisemaker'
 import './App.css';
 
 function App() {
@@ -8,6 +8,9 @@ function App() {
       <header>
         <h1>Future Location for my Noisemaker!</h1>
       </header>
+      <main>
+        <Noisemaker/>
+      </main>
     </div>
   );
 }
