@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>Future Location for my Noisemaker!</h1>
+        <h1>Play Do Re Mi!</h1>
       </header>
       <main>
         <Noisemaker/>
