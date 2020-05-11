@@ -4,7 +4,7 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 20px;
-    height: 750px;
+    height: 350px;
 }
 
 .keys {
@@ -83,7 +83,7 @@
 
 .tiKey {
     height: 35%;
-}
+}  
 
 .tiKey:hover {
     background-color: violet;
@@ -91,10 +91,12 @@
     font-weight: bolder;
 }
 
+  
 .doKeyTwo {
     height: 25%;
     margin-right: unset;
 }
+
 
 .doKeyTwo:hover {
     background-color: red;
@@ -112,4 +114,15 @@
     background-color: red;
     color: white;
     font-weight: bolder;
+}
+
+@media screen and (min-width: 1000px) {
+    .xylophone {
+        height: 500px;
+    }
+}
+@media screen and (min-width: 1500px) {
+    .xylophone{
+        height: 750px;
+    }   
 }
