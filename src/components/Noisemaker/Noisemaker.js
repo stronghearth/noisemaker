@@ -5,9 +5,7 @@ import './Noisemaker.css';
 export default class Noisemaker extends Component {
     constructor(props) {
         super(props)
-        this.state = {
-            noiseActive: false
-        }
+
         this.synth = new Tone.Synth().toMaster();
     }
 
@@ -52,16 +50,15 @@ export default class Noisemaker extends Component {
     }
 
     render() {
-        return <>
-
-                <button onClick={e => this.playDo()}>DO</button>
-                <button onClick={e => this.playRe()}>RE</button>
-                <button onClick={e => this.playMi()}>MI</button>
-                <button onClick={e => this.playFa()}>FA</button>
-                <button onClick={e => this.playSo()}>SO</button>
-                <button onClick={e => this.playLa()}>LA</button>
-                <button onClick={e => this.playTi()}>TI</button>
-                <button onClick={e => this.playDo2()}>DO</button>
-        </>
+        return <section className="xylophone">
+                    <button className="doKey" onClick={e => this.playDo()}>DO</button>
+                    <button className="reKey" onClick={e => this.playRe()}>RE</button>
+                    <button className="miKey" onClick={e => this.playMi()}>MI</button>
+                    <button className="faKey" onClick={e => this.playFa()}>FA</button>
+                    <button className="soKey" onClick={e => this.playSo()}>SO</button>
+                    <button className="laKey" onClick={e => this.playLa()}>LA</button>
+                    <button className="tiKey" onClick={e => this.playTi()}>TI</button>
+                    <button className="doKeyTwo" onClick={e => this.playDo2()}>DO</button>
+        </section>
     }
 }

@@ -1,0 +1,81 @@
+.xylophone {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button {
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    font-size: 25px;
+    width: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.doKey {
+    height: 750px;
+}
+
+.doKey:hover {
+    color: red;
+}
+
+.reKey {
+    height: 650px;
+}
+
+.reKey:hover {
+    color: orange;
+}
+
+.miKey {
+    height: 550px;
+}
+
+.miKey:hover {
+    color: yellow;
+}
+
+.faKey {
+    height: 450px;
+}
+
+.faKey:hover {
+    color: green;
+}
+
+.soKey {
+    height: 350px;
+}
+
+.soKey:hover {
+    color: blue;
+}
+
+.laKey {
+    height: 250px;
+}
+.laKey:hover {
+    color: indigo;
+}
+
+.tiKey {
+    height: 150px;
+}
+
+.tiKey:hover {
+    color: violet;
+}
+
+.doKeyTwo {
+    height: 75px;
+}
+
+.doKeyTwo:hover {
+    color: red;
+}
